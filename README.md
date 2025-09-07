@@ -27,7 +27,7 @@ It also supports **localization** so users can switch between **Arabic and Engli
 
 ## 📸 Screenshots
 
-| 🏠 Home | 📄 Details | ℹ️ About |
+| 🏠 Home | 📄 Details | 🔎 Search |
 |---------|------------|----------|
 | <img src="assets/screenshots/home.png" width="250"/> | <img src="assets/screenshots/details.png" width="250"/> | <img src="assets/screenshots/search.png" width="250"/> |
 
