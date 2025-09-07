@@ -10,11 +10,7 @@ class SearchResultServices {
     try {
       final response = await DioHelper.getRequest(
         endPoint: ApiEndpoints.searchEndpoint,
-        query: {
-          "apiKey": AppConstants.newApiKey,
-          "q": query,
-          "language": AppConstants.lang,
-        },
+        query: {"apiKey": AppConstants.newApiKey, "q": query},
       );
       if (response.statusCode == 200) {
         ArticlesModel articlesModel = ArticlesModel.fromJson(response.data);

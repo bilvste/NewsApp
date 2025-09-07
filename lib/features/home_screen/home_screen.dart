@@ -39,10 +39,10 @@ class _HomeScreenState extends State<HomeScreen> {
         actions: [
           IconButton(
             onPressed: () {
-              if (context.locale.languageCode == "ar") {
-                context.setLocale(const Locale("en"));
-              } else {
+              if (context.locale.languageCode == "en") {
                 context.setLocale(const Locale("ar"));
+              } else {
+                context.setLocale(const Locale("en"));
               }
               AppConstants.lang = context.locale.languageCode;
             },
