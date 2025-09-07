@@ -1,17 +1,16 @@
-# news_app
+📰 News App  
+A clean and minimal News App built with Flutter.  
+This app allows users to explore the latest articles and headlines in real-time using the [NewsAPI](https://newsapi.org/).  
 
-A new Flutter project.
+🚀 Features  
+🗞️ Browse latest news across different categories  
+🔍 Search for articles by keyword  
+📱 Responsive and modern UI with smooth experience  
+🔄 Pull-to-refresh to get the newest headlines  
+⚡ Fast and reliable performance with Dio HTTP client  
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-#
+🛠️ Technologies Used  
+- Flutter  
+- Dart  
+- Dio (for API requests)  
+- NewsAPI (news provider)  
